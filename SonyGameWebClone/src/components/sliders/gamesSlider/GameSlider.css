@@ -1,0 +1,52 @@
+.divSlider img {
+  position: relative;
+  left: 5%;
+}
+.divSlider {
+  margin-top: 20px;
+}
+.divSlider img:hover {
+  transform: translateY(-10%);
+  transition: 0.3s all;
+}
+.divSlider .selected {
+  border: 4px solid rgba(90, 90, 233, 0.859);
+}
+.divSlider .notSelected {
+  opacity: 0.85;
+}
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+.helldiversSlide,
+.finalFantasySlide,
+.foamstarsSlide,
+.tekken8Slide,
+.callofdutySlide,
+.suicideSquadSlide,
+.honkaiStarrailSlide {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -10%);
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+p {
+  font-weight: bold;
+  margin: 0;
+}
+button {
+  padding: 15px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+}
